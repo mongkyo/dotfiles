@@ -1,6 +1,4 @@
-# Mathias’s dotfiles
-
-![Screenshot of my shell prompt](https://i.imgur.com/EkEtphC.png)
+# mongkyo's dotfiles
 
 ## Installation
 
