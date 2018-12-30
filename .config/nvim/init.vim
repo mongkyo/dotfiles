@@ -51,6 +51,7 @@ function! BuildYCM(info)
 endfunction
 Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }
 
+Plug 'davidhalter/jedi-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'leafgarland/typescript-vim'

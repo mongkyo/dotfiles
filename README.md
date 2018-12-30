@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# mongkyo's dotfiles
+
+>>>>>>> 92e2eb6c95340c5be034b27d92760ed988294ffe
 ## Installation
 
 **Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
