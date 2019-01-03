@@ -24,7 +24,6 @@
 set background=dark 
 " Use  truecolors
 set termguicolors
-
 set t_Co=256
 " Enable syntax highlighting
 syntax on

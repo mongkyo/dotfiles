@@ -42,7 +42,13 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'Yggdroot/indentLine'
 
 Plug 'morhetz/gruvbox'
+Plug 'w0rp/ale'
 
+" Python
+Plug 'davidhalter/jedi-vim'
+Plug 'python-mode/python-mode', {'branch': 'develop'}
+
+Plug 'mattn/emmet-vim'
 
 function! BuildYCM(info)
   if a:info.status == 'installed' || a:info.force
