@@ -1,10 +1,10 @@
 "set encoding=utf-8              " Encoding Type utf-8
-"set nu                          " Line Number
-"set ai                          " Auto Indent
-"set ts=4                        " Tab Size
-"set sw=4                        " Shift Width
-"set hlsearch                    " highlight all search matches
-"syntax on
+set nu                          " Line Number
+set ai                          " Auto Indent
+set ts=4                        " Tab Size
+set sw=4                        " Shift Width
+set hlsearch                    " highlight all search matches
+syntax on
 
 "set number
 " Highlight current line
