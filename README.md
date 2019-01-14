@@ -17,9 +17,6 @@ git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source
 ```
 
 
-
-
-
 To update, `cd` into your local `dotfiles` repository and then:
 
 ```bash
