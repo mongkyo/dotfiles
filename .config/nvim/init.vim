@@ -61,5 +61,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'leafgarland/typescript-vim'
+Plug 'majutsushi/tagbar'
+
 " Initialize plugin system
 call plug#end()
