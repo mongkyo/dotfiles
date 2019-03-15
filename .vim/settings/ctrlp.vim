@@ -3,3 +3,4 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll)$'
 \ }
 let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
