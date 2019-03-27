@@ -11,3 +11,6 @@ let g:ycm_python_binary_path = '/usr/local/var/pyenv/versions/neovim3/bin/python
  " If you have unwanted YCM SHUTDOWN, then suspect the interpreter
 "let g:ycm_path_to_python_interpreter = '/usr/local/bin/python'
 "
+" autocomplete missing in python for 'from x import'
+" found in YCM issue -> https://github.com/Valloric/ycmd/issues/788
+let g:ycm_semantic_triggers = {'python': ['re!from\s+\S+\s+import\s']}
