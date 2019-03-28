@@ -125,6 +125,7 @@ alias c="clear"
 alias e="exit"
 alias pip="pip3"
 alias mux="tmuxinator"
+alias ju="jupyter notebook"
 export EDITOR=/usr/local/bin/nvim
 
 DEFAULT_USER="$(whoami)"
