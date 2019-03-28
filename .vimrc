@@ -18,34 +18,29 @@ Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }  " A code-completi
 Plug 'davidhalter/jedi-vim'  " Using the jedi autocompletion library for VIM. (python)
 
 " Snippets
-Plug 'SirVer/ultisnips'  " The ultimate snippet solution for Vim: Snippet Engine
-Plug 'honza/vim-snippets'  " vim-snipmate default snippets: Snippet library
-Plug 'ervandew/supertab'  " Perform all your vim insert mode completions with Tab
-
-" Golang
-Plug 'fatih/vim-go'  " Go development plugin
-Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh' }  " Go Autocompletion daemon
-Plug 'sebdah/vim-delve'  " Neovim / Vim integration for Delve
+" Plug 'SirVer/ultisnips'  " The ultimate snippet solution for Vim: Snippet Engine
+" Plug 'honza/vim-snippets'  " vim-snipmate default snippets: Snippet library
+" Plug 'ervandew/supertab'  " Perform all your vim insert mode completions with Tab
 
 " Python
 Plug 'python-mode/python-mode', {'branch': 'develop'}
 
 " Miscellaneous
-Plug 'mbbill/undotree'  " The undo history visualizer
-Plug 'w0rp/ale'  " Asynchronous linting/fixing for Vim and Language Server Protocol (LSP) integration
+" Plug 'mbbill/undotree'  " The undo history visualizer
+" Plug 'w0rp/ale'  " Asynchronous linting/fixing for Vim and Language Server Protocol (LSP) integration
 Plug 'majutsushi/tagbar'  " Vim plugin that displays tags in a window, ordered by scope
-Plug 'jiangmiao/auto-pairs'  " Vim plugin, insert or delete brackets, parens, quotes in pair
-Plug 'vim-scripts/matchit.zip'  " extended % matching for HTML, LaTeX, and many other languages
-Plug 'godlygeek/tabular' " Vim script for text filtering and alignment
-Plug 'chase/vim-ansible-yaml'  " A vim plugin for syntax highlighting Ansible's common filetypes
-Plug 'rizzatti/dash.vim'  " Search Dash.app from Vim
+" Plug 'jiangmiao/auto-pairs'  " Vim plugin, insert or delete brackets, parens, quotes in pair
+" Plug 'vim-scripts/matchit.zip'  " extended % matching for HTML, LaTeX, and many other languages
+" Plug 'godlygeek/tabular' " Vim script for text filtering and alignment
+" Plug 'chase/vim-ansible-yaml'  " A vim plugin for syntax highlighting Ansible's common filetypes
+" Plug 'rizzatti/dash.vim'  " Search Dash.app from Vim
 Plug 'nathanaelkane/vim-indent-guides'  " A Vim plugin for visually displaying indent levels in code
 Plug 'bling/vim-airline'  " lean & mean status/tabline for vim that's light as air
 Plug 'scrooloose/nerdcommenter'  " Vim plugin for intensely orgasmic commenting
-Plug 'mileszs/ack.vim' " Vim plugin for the Perl module / CLI script 'ack' - used with ag(silver searcher)
+" Plug 'mileszs/ack.vim' " Vim plugin for the Perl module / CLI script 'ack' - used with ag(silver searcher)
 Plug 'airblade/vim-gitgutter' " A Vim plugin which shows a git diff in the gutter (sign column) and stages/undoes hunks.
-Plug 'bkad/CamelCaseMotion' " A vim script to provide CamelCase motion through words
-Plug 'tpope/vim-surround' " surround.vim: quoting/parenthesizing made simple
+" Plug 'bkad/CamelCaseMotion' " A vim script to provide CamelCase motion through words
+" Plug 'tpope/vim-surround' " surround.vim: quoting/parenthesizing made simple
 Plug 'tpope/vim-repeat'  " repeat.vim: enable repeating supported plugin maps with '.'
 
 " Searching and moving
@@ -60,13 +55,13 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 "
 " Practical Vim page 29
-Plug 'kana/vim-textobj-user'  " Vim plugin: Create your own text objects
-Plug 'kana/vim-textobj-entire'  " Vim plugin: Text objects for entire buffer
-Plug 'tpope/vim-unimpaired'  " unimpaired.vim: Pairs of handy bracket mappings
+" Plug 'kana/vim-textobj-user'  " Vim plugin: Create your own text objects
+" Plug 'kana/vim-textobj-entire'  " Vim plugin: Text objects for entire buffer
+" Plug 'tpope/vim-unimpaired'  " unimpaired.vim: Pairs of handy bracket mappings
 
 " Modern Vim
-Plug 'tpope/vim-projectionist'  " projectionist.vim: Granular project configuration
-Plug 'tpope/vim-dispatch'  " dispatch.vim: Asynchronous build and test dispatcher
+" Plug 'tpope/vim-projectionist'  " projectionist.vim: Granular project configuration
+" Plug 'tpope/vim-dispatch'  " dispatch.vim: Asynchronous build and test dispatcher
 
 " Colorscheme
 Plug 'flazz/vim-colorschemes'  " one colorscheme pack to rule them all!
