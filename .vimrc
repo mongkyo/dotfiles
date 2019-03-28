@@ -207,4 +207,10 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Settings 관리
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-so ~/.vim/settings.vim
+" so ~/.config/nvim/init.vim
+let vimsettings = '~/.vim/settings'
+let uname = system("uname -s")
+
+for fpath in split(globpath(vimsettings, '*.vim'), '\n')
+  exe 'source' fpath
+endfor
