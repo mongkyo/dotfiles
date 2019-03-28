@@ -28,7 +28,7 @@ set t_Co=256
 " Enable syntax highlighting
 syntax on
 
-colorscheme gruvbox
+" colorscheme gruvbox
 
 " Make Vim more useful
 set nocompatible
