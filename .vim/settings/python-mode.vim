@@ -1,4 +1,4 @@
-let g:pymode_options_max_line_length = 90
+let g:pymode_options_max_line_length = 180
 let g:pymode_indent = 1
 
 " Enable automatic virtualenv detection
