@@ -136,5 +136,8 @@ export PYENV_ROOT=/usr/local/var/pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
+envact='source $(pipenv --venv)/bin/activate'
+
 export NVM_DIR="/Users/mongkyo/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
