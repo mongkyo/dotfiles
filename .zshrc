@@ -7,10 +7,10 @@ export ZSH="/Users/mongkyo/.oh-my-zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes ZSH_THEME="powerlevel9k/powerlevel9k" 
 ZSH_THEME="powerlevel9k/powerlevel9k"
-
 POWERLEVEL9K_MODE="nerdfont-complete"
+
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon user virtualenv dir_writable dir vcs)
 # POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time root_indicat
@@ -86,6 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 # autosuggestions keybind
 bindkey '^e' autosuggest-accept
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -126,16 +127,18 @@ alias e="exit"
 alias pip="pip3"
 alias mux="tmuxinator"
 alias ju="jupyter notebook"
+alias runserver="python3 manage.py runserver"
+alias gl="git log --oneline --all --graph"
 export EDITOR=/usr/local/bin/nvim
 
 DEFAULT_USER="$(whoami)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-export PYENV_ROOT=/usr/local/var/pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-
 export NVM_DIR="/Users/mongkyo/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# if command -v pyenv 1>/dev/null 2>&1; then
+#   eval "$(pyenv init -)"
+# fi
+# export PIPENV_PYTHON="$PYENV_ROOT/shims/python"

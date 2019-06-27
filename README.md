@@ -98,3 +98,9 @@ ___`__prefix__` + I
 
 Installs new plugins from GitHub or any other git repository
 Refreshes TMUX environment
+
+
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi

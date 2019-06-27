@@ -18,9 +18,9 @@ Plug 'Valloric/YouCompleteMe', { 'do': function('BuildYCM') }  " A code-completi
 Plug 'davidhalter/jedi-vim'  " Using the jedi autocompletion library for VIM. (python)
 
 " Snippets
-" Plug 'SirVer/ultisnips'  " The ultimate snippet solution for Vim: Snippet Engine
-" Plug 'honza/vim-snippets'  " vim-snipmate default snippets: Snippet library
-" Plug 'ervandew/supertab'  " Perform all your vim insert mode completions with Tab
+Plug 'SirVer/ultisnips'  " The ultimate snippet solution for Vim: Snippet Engine
+Plug 'honza/vim-snippets'  " vim-snipmate default snippets: Snippet library
+Plug 'ervandew/supertab'  " Perform all your vim insert mode completions with Tab
 
 " Python
 Plug 'python-mode/python-mode', {'branch': 'develop'}
@@ -40,7 +40,7 @@ Plug 'scrooloose/nerdcommenter'  " Vim plugin for intensely orgasmic commenting
 " Plug 'mileszs/ack.vim' " Vim plugin for the Perl module / CLI script 'ack' - used with ag(silver searcher)
 Plug 'airblade/vim-gitgutter' " A Vim plugin which shows a git diff in the gutter (sign column) and stages/undoes hunks.
 " Plug 'bkad/CamelCaseMotion' " A vim script to provide CamelCase motion through words
-" Plug 'tpope/vim-surround' " surround.vim: quoting/parenthesizing made simple
+Plug 'tpope/vim-surround' " surround.vim: quoting/parenthesizing made simple
 Plug 'tpope/vim-repeat'  " repeat.vim: enable repeating supported plugin maps with '.'
 
 " Searching and moving
