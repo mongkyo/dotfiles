@@ -24,7 +24,7 @@ Plug 'ervandew/supertab'  " Perform all your vim insert mode completions with Ta
 
 " Python
 Plug 'python-mode/python-mode', {'branch': 'develop'}
-
+Plug 'rking/ag.vim'
 " Miscellaneous
 " Plug 'mbbill/undotree'  " The undo history visualizer
 " Plug 'w0rp/ale'  " Asynchronous linting/fixing for Vim and Language Server Protocol (LSP) integration
