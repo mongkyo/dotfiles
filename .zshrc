@@ -127,7 +127,8 @@ alias e="exit"
 alias pip="pip3"
 alias mux="tmuxinator"
 alias ju="jupyter notebook"
-alias runserver="python3 manage.py runserver"
+alias prs="python3 manage.py runserver"
+alias shell="python3 manage.py shell_plus"
 alias gl="git log --oneline --all --graph"
 export EDITOR=/usr/local/bin/nvim
 
