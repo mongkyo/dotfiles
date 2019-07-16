@@ -142,3 +142,6 @@ export NVM_DIR="/Users/mongkyo/.nvm"
 #   eval "$(pyenv init -)"
 # fi
 # export PIPENV_PYTHON="$PYENV_ROOT/shims/python"
+
+# pyenv
+eval "$(pyenv init -)"
