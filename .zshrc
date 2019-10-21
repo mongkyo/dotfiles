@@ -119,7 +119,6 @@ bindkey '^e' autosuggest-accept
 alias v="pipenv run nvim"
 alias vim="nvim"
 alias vi="nvim"
-alias v="nvim"
 alias vimdiff="nvim -d"
 alias t="tmux"
 alias c="clear"
