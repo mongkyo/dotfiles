@@ -116,7 +116,7 @@ bindkey '^e' autosuggest-accept
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias v="nvim"
+alias v="pipenv run nvim"
 alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
@@ -146,3 +146,6 @@ export NVM_DIR="/Users/mongkyo/.nvm"
 
 # pyenv
 eval "$(pyenv init -)"
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
