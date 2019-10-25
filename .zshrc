@@ -116,9 +116,10 @@ bindkey '^e' autosuggest-accept
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias v="pipenv run nvim"
+alias v="nvim"
 alias vim="nvim"
 alias vi="nvim"
+alias pv="pipenv run nvim"
 alias vimdiff="nvim -d"
 alias t="tmux"
 alias c="clear"
