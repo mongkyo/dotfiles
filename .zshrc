@@ -130,6 +130,7 @@ alias ju="jupyter notebook"
 alias prs="python3 manage.py runserver"
 alias shell="python3 manage.py shell_plus"
 alias gl="git log --oneline --all --graph"
+alias checkip="ifconfig | grep inet"
 export EDITOR=/usr/local/bin/nvim
 
 DEFAULT_USER="$(whoami)"
@@ -149,3 +150,6 @@ eval "$(pyenv init -)"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+export NODE_PATH="/usr/local/lib/node_modules"
+export PATH="/usr/local/Cellar/node/노드버전/bin:$PATH"
